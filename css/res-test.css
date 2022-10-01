@@ -1,0 +1,850 @@
+/* Responsive layout */
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 400px) {
+  /* hiding navigation bar */
+  .navigation_bar {
+    display: none;
+  }
+
+  .second_main_section {
+    display: flex;
+    flex-direction: column;
+    /* margin: 18px auto auto auto; */
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: rgba(193, 195, 204, 0.8); */
+    background-image: url(../img/background-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* position: relative; */
+
+    margin: 18px auto auto auto;
+  }
+  .big-text h1 {
+    font-size: 40px;
+    margin-right: 100px;
+    display: flex;
+  }
+  .small-text p {
+    font-size: 20px;
+    margin-right: 100px;
+    display: flex;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  /* contact section  */
+  /* contact section starts here */
+  .contact_css {
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #e47312;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+    margin-left: -10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 450px 0px 0px 350px; */
+  }
+  .phone_svg {
+    width: 33%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .phone_svg img {
+    background-color: transparent;
+    width: 30px;
+    display: flex;
+    margin: auto;
+    margin-top: 20%;
+  }
+  .phone_svg h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    background-color: transparent;
+  }
+  .phone_svg p {
+    display: block;
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 0;
+    color: hsla(0, 0%, 100%, 0.7);
+    text-align: center;
+    background-color: transparent;
+  }
+  .mail_svg {
+    width: 33%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .mail_svg img {
+    background-color: transparent;
+    width: 30px;
+    display: flex;
+    margin: auto;
+    margin-top: 20%;
+  }
+  .mail_svg h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    background-color: transparent;
+  }
+  .mail_svg p {
+    display: block;
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 0;
+    color: hsla(0, 0%, 100%, 0.7);
+    text-align: center;
+    background-color: transparent;
+  }
+  .clock_svg {
+    width: 33%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .clock_svg img {
+    background-color: transparent;
+    width: 30px;
+    display: flex;
+    margin: auto;
+    margin-top: 20%;
+  }
+  .clock_svg h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    background-color: transparent;
+  }
+  .clock_svg p {
+    display: block;
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 0;
+    color: hsla(0, 0%, 100%, 0.7);
+    text-align: center;
+    background-color: transparent;
+  }
+  .clock_svg p span {
+    font-weight: bold;
+    color: #fff;
+    background-color: transparent;
+  }
+  /* specilization section starts here  */
+  .specialization_section {
+    flex-direction: column;
+    position: relative;
+    margin-top: 500px;
+    /* width: 100%; */
+    /* padding: 100px; */
+    background-color: transparent;
+    align-items: center;
+  }
+  .specialization_section .background-text {
+    display: flex;
+    position: absolute;
+    /* left: -43px; */
+    top: 120px;
+    z-index: 1;
+    /* color: red; */
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 50px;
+    margin-left: -10px;
+    letter-spacing: 2px;
+    background-color: transparent;
+  }
+  .specialization_section h2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    margin-top: 90px;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: transparent;
+  }
+  .specialization_section h3 {
+    position: absolute;
+    font-size: 6px;
+    color: #919198;
+    letter-spacing: 1.5px;
+    margin-left: 50%;
+    margin-top: 300px;
+  }
+  .specialization_section h3:hover {
+    display: none;
+    /* content: ""; */
+    width: 120px;
+    height: 2px;
+    text-decoration: underline 2px;
+    text-decoration-color: #e47312;
+    color: black;
+  }
+  .brick_css {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90%;
+    padding: 10px;
+  }
+  .renovation {
+    /* display: flex; */
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    /* margin: 20px; */
+  }
+  .renovation img {
+    width: 70px;
+  }
+  .renovation h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .renovation p {
+    color: #919198;
+    line-height: 1.2;
+    /* padding-right: 20px; */
+  }
+
+  .architecture_css {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .architecture_css img {
+    width: 70px;
+  }
+
+  .architecture_css h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .architecture_css p {
+    color: #919198;
+    line-height: 1.2;
+    /* padding-right: 20px; */
+  }
+
+  .construction_css {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .construction_css img {
+    width: 70px;
+  }
+
+  .construction_css h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .construction_css p {
+    color: #919198;
+    line-height: 1.2;
+    /* padding-right: 20px; */
+  }
+
+  .finance_css {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .finance_css img {
+    width: 70px;
+  }
+  .finance_css h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .finance_css p {
+    color: #919198;
+    line-height: 1.2;
+    /* padding-right: 20px; */
+  }
+
+  /* who we are starts here */
+  .who-we-are_css {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 0;
+    /* padding: 50px 100px 0px 100px; */
+    background-color: #fff;
+    align-items: center;
+  }
+  .who-we-are_css img {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+  }
+  .content_class {
+    margin: auto;
+    width: 300px;
+    display: flex;
+    margin-left: -60px;
+    /* padding-right: 50px; */
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top: 300px;
+  }
+  .main-div_2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-div_2 h1 {
+    position: absolute;
+    top: 300px;
+    margin-left: -90px;
+    z-index: 1;
+    /* margin-left: 6%; */
+    color: rgba(213, 213, 216, 0.158);
+    font-size: 60px;
+    letter-spacing: 5px;
+    background-color: transparent;
+  }
+  .main-div_2 h2 {
+    position: absolute;
+    top: 350px;
+    z-index: 2;
+    margin-left: -90px;
+    /* margin-bottom: 10px; */
+    font-size: 30px;
+    letter-spacing: 3px;
+    background-color: transparent;
+  }
+  .content_class p {
+    /* margin-top: 100px; */
+    width: 100%;
+    color: #919198;
+  }
+  /* who we are ends here */
+
+  /* meet the team number section starts here  */
+  .number_main_section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+  .number_main_section div {
+    height: 150px;
+    width: 100%;
+    margin-left: -120px;
+    background-color: #fff;
+  }
+  .number_main_section .text_css {
+    padding: 0px;
+  }
+  .number_main_section .text_css h1 {
+    font-size: 60px;
+    text-align: center;
+    /* padding: 10px 10px 0px 10px; */
+    left: 0px;
+    color: #e47312;
+    /* margin-bottom: -10px; */
+  }
+  .number_main_section .text_css h1:nth-child(1) {
+    margin-top: 1px;
+  }
+  .number_main_section .text_css p {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 150px;
+    padding: 1px;
+    color: #919198;
+    margin-bottom: -110px;
+  }
+  /* meet the team number section  ends here  */
+  /* our work starts here */
+  .project_main {
+    background-color: #f7f8fc;
+  }
+  .main-div_3 h1 {
+    font-size: 60px;
+    margin-top: 70px;
+  }
+  .main-div_3 h3 {
+    font-size: 10px;
+    margin-top: 300px;
+    display: none;
+  }
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 0px;
+    margin-top: 150px;
+    vertical-align: middle;
+    background-color: #f7f8fc;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .column img {
+    /* margin-top: 0px; */
+    vertical-align: middle;
+    width: 100%;
+    margin: 0px;
+  }
+
+  /* hover effect staarts here */
+  .container {
+    position: relative;
+    width: 50%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    /* transition: 0.5s ease; */
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(32, 32, 32, 0.295);
+  }
+
+  .container:hover .image {
+    opacity: 0.1;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .button {
+    opacity: 2;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+    /* background-color: #eb8501; */
+    color: white;
+    font-size: 16px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* our work ends here */
+
+  /* big banner with background image  */
+
+  .parent-banner {
+    position: relative;
+    flex-direction: column;
+    /* max-width: 100%; */
+    /* width: 400px; */
+    /* height: 3000px; */
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f7f8fc;
+  }
+  .banner-child {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-child h1 {
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 3px;
+    max-width: 100%;
+    font-size: 25px;
+    margin: 30px;
+    top: 70px;
+    font-weight: bolder;
+    /* margin: auto; */
+  }
+  .banner-child p {
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    color: #ffffff;
+    letter-spacing: 3px;
+    max-width: 100%;
+    font-size: 20;
+    top: 160px;
+    margin: 30px;
+    /* font-weight: bolder; */
+    /* margin: auto; */
+  }
+
+  .banner-child h3 {
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    color: #ffffff;
+    letter-spacing: 3px;
+    max-width: 100%;
+    font-size: 10px;
+    top: 250px;
+    margin: 30px;
+    left: 0%;
+    /* font-weight: bolder; */
+    /* margin: auto; */
+  }
+  /* professionals team starts here  */
+  .main-div_team {
+    margin-top: 10px;
+    position: relative;
+    align-content: center;
+    /* z-index: 1; */
+    text-align: center;
+    padding: 32px;
+    background-color: #f7f8fc;
+    /* margin-bottom: 100px; */
+  }
+  .main-div_team h1 {
+    position: absolute;
+    z-index: 4;
+    margin-left: 1%;
+    margin-top: 50px;
+    color: rgba(213, 213, 216, 0.158);
+    font-size: 80px;
+    letter-spacing: 5px;
+    background-color: transparent;
+  }
+  .main-div_team h2 {
+    position: absolute;
+    /* top: 50px; */
+    z-index: 4;
+    margin-left: 5%;
+    margin-top: 110px;
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+    letter-spacing: 5px;
+    background-color: transparent;
+  }
+  .main-div_team h3 {
+    display: none;
+    /* position: absolute;
+    font-size: 12px;
+    color: #919198;
+    letter-spacing: 1.5px;
+    margin-left: 85%;
+    margin-top: 9%;
+    background-color: transparent; */
+  }
+
+  /* team container */
+  .team-row {
+    position: relative;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    /* flex-direction: column; */
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 px;
+    /* margin-top: 250px; */
+    vertical-align: middle;
+    /* height: 1390px; */
+    background-color: #f7f8fc;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .team-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 0px;
+    /* margin: 1px; */
+    margin-bottom: 100px;
+    /* margin-left: 100px; */
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+  }
+  .team-column:nth-child(1) {
+    margin-left: 10px;
+  }
+
+  .team-column img {
+    /* margin-top: 0px; */
+    vertical-align: middle;
+    width: 100%;
+    margin: 0px;
+    align-self: center;
+    justify-self: center;
+  }
+
+  /* hover effect staarts here */
+  .team-container {
+    /* position: relative; */
+    width: 100%;
+    background-color: #f7f8fc;
+  }
+
+  .team-image {
+    position: absolute;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    /* transition: 0.5s ease; */
+    backface-visibility: hidden;
+  }
+
+  .team-middle {
+    position: absolute;
+    height: 120px;
+    max-width: 100%;
+    width: 100%;
+    margin-top: -20%;
+    background-color: #fff;
+    z-index: 4;
+  }
+  .team-middle h1 {
+    font-size: 18px;
+    margin: 30px 30px 0px 30px;
+  }
+  .team-middle p {
+    font-size: 15px;
+    margin: 10px 30px 50px 30px;
+    color: #919198;
+  }
+  .team-social-icon {
+    position: absolute;
+    height: 170px;
+    width: 60px;
+    background-color: #e47312;
+    bottom: 0%;
+    right: 0%;
+    /* margin-top: 1000px; */
+    z-index: 5;
+    /* display: flex; */
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  .team-social-icon img {
+    width: 15px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    /* margin-top: 20px; */
+    margin: 20px 20px 20px 10px;
+  }
+  .team-social-icon hr {
+    height: 1px;
+    width: 40px;
+    margin-top: 10px;
+    background-color: rgba(255, 252, 252, 0.39);
+  }
+  /* professionals team ends here  */
+
+  /* testimonial section starts here */
+  .testimonial-css {
+    margin-top: 3200px;
+  }
+  /* testimonials ends here  */
+  /* blog section starts here */
+  .blog_section {
+    display: flex;
+    position: relative;
+    /* height: 400px; */
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: #fff;
+    margin-top: 4000px;
+  }
+  /* blog section ENDS here */
+
+  /* client section starts here */
+  .client_section {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 130px;
+    margin-top: 1400px;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+    align-items: center;
+    justify-content: center;
+  }
+  .client_section h1 {
+    position: absolute;
+    flex-direction: column;
+    left: 0%;
+    margin-left: 50px;
+    margin-top: -50px;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: transparent;
+  }
+  .client-logo {
+    display: flex;
+    background-color: transparent;
+    /* justify-content: space-between; */
+  }
+  .client-logo img {
+    width: 70px;
+    /* margin-right: 10%; */
+    margin: auto;
+    /* top: 500px; */
+    max-width: 100%;
+    background-color: transparent;
+  }
+
+  /* footer section starts here */
+  footer {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    background-color: #0a1229;
+    height: 1000px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+    /* align-items: center; */
+  }
+  /* --------------------------------------------- */
+  .footer-div {
+    position: relative;
+    /* display: inline-block; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* margin: 50px 50px 50px 70px; */
+    width: 80%;
+    height: 100px;
+    background-color: transparent;
+  }
+
+  .footer-div h1 {
+    position: absolute;
+    font-size: 20px;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .footer-div h1 span {
+    position: absolute;
+    height: 2px;
+    width: 150px;
+    /* margin-top: -100px; */
+    margin-left: 20px;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+  }
+  .footer-div h1 p {
+    /* position: absolute; */
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 232, 232);
+    background-color: transparent;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+  .footer-div h1 p h4 {
+    /* position: absolute; */
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 232, 232);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    background-color: transparent;
+  }
+  .img-box {
+    display: flex;
+    background-color: transparent;
+    /* margin-top: 1000px; */
+
+    /* justify-content: center; */
+  }
+  .img-box h5 {
+    background-color: transparent;
+    margin-left: 20px;
+    align-items: center;
+  }
+  .footer-div img {
+    align-items: center;
+    width: 35px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-right: 15px;
+    justify-self: center;
+  }
+  .footer-div img:nth-child(1) {
+    margin-top: 15px;
+  }
+
+  /* footer logo  */
+  .footer-logo {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    background-color: #e47312;
+    margin-left: 50px;
+    bottom: 0;
+  }
+  .footer-logo img {
+    position: absolute;
+    width: 100px;
+    background-color: transparent;
+    top: 40px;
+    left: 25px;
+  }
+}
