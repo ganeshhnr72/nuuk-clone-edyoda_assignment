@@ -16,8 +16,8 @@
       href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/untitled.css" type="text/css" />
-    <link rel="stylesheet" href="./css/res-test.css" />
+    <link rel="stylesheet" href="./css/test.css" type="text/css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <title>EdYoda | HTML & CSS Final Project |Ganesh M Naik</title>
     <link rel="shortcut icon" href="./img/icon.jpg" type="image/x-icon" />
     <!-- Author: GANESH M NAIK -->
@@ -37,10 +37,11 @@
                 <li>ABOUT</li>
                 <li>SERVICESS</li>
                 <li>BLOG</li>
-                <li> <select name="blog" id="blog">
-    <option value="page">PAGES</option>
-    
-  </select></li>
+                <li>
+                  <select name="blog" id="blog">
+                    <option value="page">PAGES</option>
+                  </select>
+                </li>
                 <!-- <li>PAGES</li> -->
               </ul>
             </div>
@@ -111,7 +112,7 @@
       <div>
         <h2>OUR SPECIALIZATION</h2>
         <h1 class="background-text">SERVICESS</h1>
-        <h3>VIEW ALL SERVICES</h3>
+        <h3 class="view-all-servicess">VIEW ALL SERVICES</h3>
         <!-- <h3>VIEW ALL SERVICES</h3> -->
       </div>
       <div class="brick_css">
@@ -345,190 +346,182 @@
         </div>
         <!-- professionals team ends here  -->
       </div>
-
-      <!-- testimonial section starts here  -->
-      <!-- testimonial section starts here -->
-      <section class="testimonial_css">
-        <div class="testimonial_right">
-          <div class="main-div_testimonial">
+      <!-- ------------------------------testimonial section starts here----------------------------------- -->
+      <div class="flex-container">
+        <div class="flex-item-left">
+          <div class="testimonial-left-text">
             <h1>CLIENTS</h1>
             <h2>TESTIMONIALS</h2>
-            <p>
-              Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent
-              blandit laoreet nibh. Morbi mollis tellus ac sapien.
-            </p>
-            <h3>OUR SERVICES</h3>
           </div>
         </div>
-        <div class="testimonial_left">
-          <div class="testimonial-d1">
-            <button class="testimonial-colon-container">
-              <span class="testimonial-colon">"</span>
-            </button>
+        <div class="flex-item-right">
+          <div class="r-1">
+            <button>"</button>
             <h1>SARA WILLIAM</h1>
-            <p>CEO at Webflow</p>
-            <h3>
+            <h2>CEO at Webflow</h2>
+            <p>
               "Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
               ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
               cursus id rutrum lorem imperdiet"
-            </h3>
+            </p>
           </div>
-          <div class="testimonial-d2">
-            <button class="testimonial-colon-container">
-              <span class="testimonial-colon">"</span>
-            </button>
-            <h1>RAVEN DURGAN</h1>
-            <p>Architect at Group</p>
-            <h3>
-              "Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet
-              eget, lobortis pellentesque, rutrum eu, nisl"
-            </h3>
-          </div>
-          <div class="testimonial-d3">
-            <button class="testimonial-colon-container">
-              <span class="testimonial-colon">"</span>
-            </button>
+          <div class="r-2">
+            <button>"</button>
             <h1>JOHN JUNIOR</h1>
-            <p>Menager at Complexx</p>
-            <h3>
+            <h2>Menager at Complexx</h2>
+            <p>
               "Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla.
               Cras varius. Etiam sit amet orci eget eros faucibus tincidunt.
               Fusce a quam"
-            </h3>
+            </p>
           </div>
-          <div class="testimonial-d4">
-            <button class="testimonial-colon-container">
-              <span class="testimonial-colon">"</span>
-            </button>
+          <div class="r-3">
+            <button>"</button>
+            <h1>RAVEN DURGAN</h1>
+            <h2>Architect at Group</h2>
+            <p>
+              "Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet
+              eget, lobortis pellentesque, rutrum eu, nisl"
+            </p>
+          </div>
+          <div class="r-4">
+            <button>"</button>
             <h1>SAMI TYPO</h1>
-            <p>SEO at Balfin</p>
-            <h3>
+            <h2>SEO at Balfin</h2>
+            <p>
               "Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a
               nisl id ante tempus hendrerit"
-            </h3>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------testimonial section ends here-----------------------------------  -->
+      <!-- blog section starts here -->
+      <section class="blog_section">
+        <div class="main-div_blog_section">
+          <h1>BLOG</h1>
+          <h2>LASTET NEWS</h2>
+          <h3>VIEW BLOG</h3>
+        </div>
+        <!-- blog content starts here -->
+        <div class="blog-container">
+          <div class="column container">
+            <div class="blog-container-x">
+              <div class="calender-blog">
+                <h1>17</h1>
+                <span> <h2>OCT</h2> </span>
+              </div>
+              <img src="./img/port-1.jpg" />
+              <h1>BLOGPOST 1</h1>
+              <p>
+                Service and providing potential clients and customers with
+                testimonials is one of the best ways to market.
+              </p>
+              <h3>READ MORE</h3>
+            </div>
+          </div>
+          <div class="column container">
+            <div class="blog-container-x">
+              <div class="calender-blog">
+                <h1>11</h1>
+                <span> <h2>DEC</h2> </span>
+              </div>
+              <img src="./img/port-2.jpg" />
+              <h1>BLOGPOST 2</h1>
+              <p>
+                Service and providing potential clients and customers with
+                testimonials is one of the best ways to market.
+              </p>
+              <h3>READ MORE</h3>
+            </div>
+          </div>
+          <div class="column container">
+            <div class="blog-container-x">
+              <div class="calender-blog">
+                <h1>27</h1>
+                <span> <h2>OCT</h2> </span>
+              </div>
+              <img src="./img/port-3.jpg" />
+              <h1>BLOGPOST 3</h1>
+              <p>
+                Service and providing potential clients and customers with
+                testimonials is one of the best ways to market.
+              </p>
+              <h3>READ MORE</h3>
+            </div>
           </div>
         </div>
       </section>
-    </div>
-    <!-- testimonial section ends here  -->
-    <!-- blog section starts here -->
-    <section class="blog_section">
-      <div class="main-div_blog_section">
-        <h1>BLOG</h1>
-        <h2>LASTET NEWS</h2>
-        <h3>VIEW BLOG</h3>
-      </div>
-      <!-- blog content starts here -->
-      <div class="blog-container">
-        <div class="column container">
-          <div class="blog-container-x">
-            <div class="calender-blog">
-              <h1>17</h1>
-              <span> <h2>OCT</h2> </span>
-            </div>
-            <img src="./img/port-1.jpg" />
-            <h1>BLOGPOST 1</h1>
-            <p>
-              Service and providing potential clients and customers with
-              testimonials is one of the best ways to market.
-            </p>
-            <h3>READ MORE</h3>
-          </div>
+      <!-- client section starts here -->
+      <section class="client_section">
+        <h1>TRUSTED BY TOP COMPANIES</h1>
+        <div class="client-logo">
+          <img src="./img/logo-1w.png" alt="" />
+          <img src="./img/logo-2w.png" alt="" />
+          <img src="./img/logo-3w.png" alt="" />
+          <img src="./img/logo-4w.png" alt="" />
+          <img src="./img/logo-5w.png" alt="" />
         </div>
-        <div class="column container">
-          <div class="blog-container-x">
-            <div class="calender-blog">
-              <h1>11</h1>
-              <span> <h2>DEC</h2> </span>
-            </div>
-            <img src="./img/port-2.jpg" />
-            <h1>BLOGPOST 2</h1>
-            <p>
-              Service and providing potential clients and customers with
-              testimonials is one of the best ways to market.
-            </p>
-            <h3>READ MORE</h3>
-          </div>
-        </div>
-        <div class="column container">
-          <div class="blog-container-x">
-            <div class="calender-blog">
-              <h1>27</h1>
-              <span> <h2>OCT</h2> </span>
-            </div>
-            <img src="./img/port-3.jpg" />
-            <h1>BLOGPOST 3</h1>
-            <p>
-              Service and providing potential clients and customers with
-              testimonials is one of the best ways to market.
-            </p>
-            <h3>READ MORE</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- client section starts here -->
-    <section class="client_section">
-      <h1>TRUSTED BY TOP COMPANIES</h1>
-      <div class="client-logo">
-        <img src="./img/logo-1w.png" alt="" />
-        <img src="./img/logo-2w.png" alt="" />
-        <img src="./img/logo-3w.png" alt="" />
-        <img src="./img/logo-4w.png" alt="" />
-        <img src="./img/logo-5w.png" alt="" />
-      </div>
-    </section>
-  </body>
+      </section>
 
-  <footer>
-    <div class="footer-div">
-      <h1>
-        ABOUT NUUK <span></span>
-        <p>
-          Based on collective work and shared knowledge, Nuuk aims to favor
-          dialogue and debate, to transform individual knowledge into increased
-          creative potential. <br /><br />
-          FIND ON MAP
-        </p>
-        <!-- <h3>FIND ON MAP</h3> -->
-      </h1>
-    </div>
-    <div class="footer-div">
-      <h1>
-        SERVICES <span></span>
+      <footer>
+        <div class="footer-div">
+          <h1>
+            ABOUT NUUK <span></span>
+            <p>
+              Based on collective work and shared knowledge, Nuuk aims to favor
+              dialogue and debate, to transform individual knowledge into
+              increased creative potential. <br /><br />
+              FIND ON MAP
+            </p>
+            <!-- <h3>FIND ON MAP</h3> -->
+          </h1>
+        </div>
+        <div class="footer-div">
+          <h1>
+            SERVICES <span></span>
 
-        <br />
-        <p>
-          FINANCIAL <br />
-          RESULTS <br />
-          CONSTRUCTION <br />
-          ARCHITECTURE <br />
-          RENOVATION <br />
-        </p>
-        <!-- <h3>FIND ON MAP</h3> -->
-      </h1>
-    </div>
-    <div class="footer-div">
-      <h1>
-        CONTACT US <span></span>
-        <br />
-        <p>
-          <div class="img-box">
-            <img src="./img/phone.svg" alt="" />
-             <h5>PHONE NUMBER <br>1234 567890  </h5>
-            </div> <br />
-          <div class="img-box">
+            <br />
+            <p>
+              FINANCIAL <br />
+              RESULTS <br />
+              CONSTRUCTION <br />
+              ARCHITECTURE <br />
+              RENOVATION <br />
+            </p>
+            <!-- <h3>FIND ON MAP</h3> -->
+          </h1>
+        </div>
+        <div class="footer-div">
+          <h1>
+            CONTACT US <span></span>
+            <br />
+            <!-- <p> -->
+            <div class="img-box">
+              <img src="./img/phone.svg" alt="" />
+              <h5>PHONE NUMBER <br />1234 567890</h5>
+            </div>
+            <br />
+            <div class="img-box">
               <img src="./img/clock.svg" alt="" />
-              <h5>OPENING TIMES <br />Mon - Sat 8:00 - 17:30, <br /> Sunday - Closed
+              <h5>
+                OPENING TIMES <br />Mon - Sat 8:00 - 17:30, <br />
+                Sunday - Closed
               </h5>
             </div>
-          <br />
-          <div class="img-box"><img src="./img/mail.svg" alt="" /><h5>CONTACT <br />contact@nuuk.com</h5></div>
-        </p>
-      </h1>
+            <br />
+            <div class="img-box">
+              <img src="./img/mail.svg" alt="" />
+              <h5>CONTACT <br />contact@nuuk.com</h5>
+            </div>
+            <!-- </p> -->
+          </h1>
+        </div>
+        <div class="footer-logo">
+          <img src="./img/logo-white.png" alt="" />
+        </div>
+      </footer>
     </div>
-    <div class="footer-logo">
-      <img src="./img/logo-white.png" alt="" />
-    </div>
-  </footer>
+  </body>
 </html>
